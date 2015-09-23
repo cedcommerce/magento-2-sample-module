@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 YourCompanyName. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="YourCompanyName_YourModuleName::yourcompanyname_gridcontroller_index" title="GridMenu" module="YourCompanyName_YourModuleName" parent="" sortOrder="20" dependsOnModule="YourCompanyName_YourModuleName" action="yourmodulename/gridcontroller/index" resource="YourCompanyName_YourModuleName::yourcompanyname_gridcontroller_index"/>
+<!--AddMenu-->
+    </menu>
+</config>

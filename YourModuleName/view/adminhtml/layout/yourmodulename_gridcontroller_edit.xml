@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+     <update handle="editor"/>
+    <body>
+	   <referenceContainer name="content">
+            <block class="YourCompanyName\YourModuleName\Block\Adminhtml\ModelName\Edit" name="yourmodulename_modelname_edit"/>
+        </referenceContainer>
+		 <referenceContainer name="left">
+            <block class="YourCompanyName\YourModuleName\Block\Adminhtml\ModelName\Edit\Tabs" name="yourmodulename_modelname_edit_tabs">
+				<block class="YourCompanyName\YourModuleName\Block\Adminhtml\ModelName\Edit\Tab\General" name="yourmodulename_modelname_edit_tab_general"/>
+				 <action method="addTab">
+                    <argument name="name" xsi:type="string">general_section</argument>
+                    <argument name="block" xsi:type="string">yourmodulename_modelname_edit_tab_general</argument>
+                </action>
+				<block class="YourCompanyName\YourModuleName\Block\Adminhtml\ModelName\Edit\Tab\Details" name="yourmodulename_modelname_edit_tab_details"/>
+				 <action method="addTab">
+                    <argument name="name" xsi:type="string">details_section</argument>
+                    <argument name="block" xsi:type="string">yourmodulename_modelname_edit_tab_details</argument>
+                </action>
+				<!--CedAddTab-->
+			</block>
+        </referenceContainer>
+    </body>
+</page>

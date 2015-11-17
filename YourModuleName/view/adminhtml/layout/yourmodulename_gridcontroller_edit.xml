@@ -12,11 +12,6 @@
                     <argument name="name" xsi:type="string">general_section</argument>
                     <argument name="block" xsi:type="string">yourmodulename_modelname_edit_tab_general</argument>
                 </action>
-				<block class="YourCompanyName\YourModuleName\Block\Adminhtml\ModelName\Edit\Tab\Details" name="yourmodulename_modelname_edit_tab_details"/>
-				 <action method="addTab">
-                    <argument name="name" xsi:type="string">details_section</argument>
-                    <argument name="block" xsi:type="string">yourmodulename_modelname_edit_tab_details</argument>
-                </action>
 				<!--CedAddTab-->
 			</block>
         </referenceContainer>

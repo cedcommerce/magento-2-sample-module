@@ -1,5 +1,5 @@
 <?php
-namespace YourCompanyName\YourModuleName\Controller\Adminhtml\GridController;
+namespace YourCompanyName\YourModuleName\Controller\Adminhtml\Gridcontroller;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -35,8 +35,8 @@ class Index extends Action
     {
 		
 		$this->resultPage = $this->resultPageFactory->create();  
-		$this->resultPage->setActiveMenu('YourCompanyName_GridController::modelname');
-		$this->resultPage ->getConfig()->getTitle()->set((__('GridController')));
+		$this->resultPage->setActiveMenu('YourCompanyName_Gridcontroller::modelname');
+		$this->resultPage ->getConfig()->getTitle()->set((__('Gridcontroller')));
 		return $this->resultPage;
     }
 }

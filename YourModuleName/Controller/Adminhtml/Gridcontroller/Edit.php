@@ -1,5 +1,5 @@
 <?php
-namespace YourCompanyName\YourModuleName\Controller\Adminhtml\GridController;
+namespace YourCompanyName\YourModuleName\Controller\Adminhtml\Gridcontroller;
 
 class Edit extends \Magento\Backend\App\Action
 {

@@ -56,6 +56,26 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
                 /*'required' => true,*/
             )
         );
+		$fieldset->addField(
+            'column2',
+            'text',
+            array(
+                'name' => 'column2',
+                'label' => __('column 2'),
+                'title' => __('column 2'),
+                /*'required' => true,*/
+            )
+        );
+		$fieldset->addField(
+            'column3',
+            'text',
+            array(
+                'name' => 'column3',
+                'label' => __('column3'),
+                'title' => __('column3'),
+                /*'required' => true,*/
+            )
+        );
 		/*{{CedAddFormField}}*/
         
         if (!$model->getId()) {

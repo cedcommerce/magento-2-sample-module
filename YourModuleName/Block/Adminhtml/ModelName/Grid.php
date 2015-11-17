@@ -10,7 +10,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected $moduleManager;
 
     /**
-     * @var \Magento\Eav\Model\Resource\Entity\Attribute\Set\CollectionFactory]
+     * @var \Magento\Eav\Model\ResourceModel\Entity\Attribute\Set\CollectionFactory]
      */
     protected $_setsFactory;
 
@@ -44,7 +44,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      * @param \Magento\Backend\Block\Template\Context $context
      * @param \Magento\Backend\Helper\Data $backendHelper
      * @param \Magento\Store\Model\WebsiteFactory $websiteFactory
-     * @param \Magento\Eav\Model\Resource\Entity\Attribute\Set\CollectionFactory $setsFactory
+     * @param \Magento\Eav\Model\ResourceModel\Entity\Attribute\Set\CollectionFactory $setsFactory
      * @param \Magento\Catalog\Model\ProductFactory $productFactory
      * @param \Magento\Catalog\Model\Product\Type $type
      * @param \Magento\Catalog\Model\Product\Attribute\Source\Status $status
@@ -58,7 +58,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         \Magento\Backend\Block\Template\Context $context,
         \Magento\Backend\Helper\Data $backendHelper,
         \Magento\Store\Model\WebsiteFactory $websiteFactory,
-		\YourCompanyName\YourModuleName\Model\Resource\ModelName\Collection $collectionFactory,
+		\YourCompanyName\YourModuleName\Model\ResourceModel\ModelName\Collection $collectionFactory,
         \Magento\Framework\Module\Manager $moduleManager,
         array $data = []
     ) {
@@ -176,14 +176,6 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
                 'header' => __('column3'),
                 'index' => 'column3',
                 'class' => 'column3'
-            ]
-        );
-		$this->addColumn(
-            'column4',
-            [
-                'header' => __('column4'),
-                'index' => 'column4',
-                'type' => 'date',
             ]
         );
 		/*{{CedAddGridColumn}}*/

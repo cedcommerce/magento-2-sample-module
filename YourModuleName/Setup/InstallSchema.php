@@ -58,13 +58,6 @@ class InstallSchema implements InstallSchemaInterface
             [],
             'column3'
         )
-		->addColumn(
-            'column4',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
-            null,
-            ['nullable' => false],
-            'column4'
-        )
 		/*{{CedAddTableColumn}}}*/
 		
 		

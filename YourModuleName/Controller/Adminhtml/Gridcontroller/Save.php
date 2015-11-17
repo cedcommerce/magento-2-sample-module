@@ -1,5 +1,5 @@
 <?php
-namespace YourCompanyName\YourModuleName\Controller\Adminhtml\GridController;
+namespace YourCompanyName\YourModuleName\Controller\Adminhtml\Gridcontroller;
 use Magento\Framework\App\Filesystem\DirectoryList;
 class Save extends \Magento\Backend\App\Action
 {

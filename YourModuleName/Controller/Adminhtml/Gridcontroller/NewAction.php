@@ -1,5 +1,5 @@
 <?php
-namespace YourCompanyName\YourModuleName\Controller\Adminhtml\GridController;
+namespace YourCompanyName\YourModuleName\Controller\Adminhtml\Gridcontroller;
 use Magento\Backend\App\Action;
 class NewAction extends \Magento\Backend\App\Action
 {
